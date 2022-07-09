@@ -1,0 +1,68 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    background-color: #666;
+    font-size: 16px;
+    line-height: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+.pimg1, .pimg2, .pimg3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    opacity: 0.70;
+    background-attachment: fixed;
+}
+.pimg1{
+    background-image: url(how-to-add-parallax-effects.png);
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(download\ \(1\).jpg);
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url(alien-planet-surface-futuristic-landscape-260nw-1898962729.webp);
+    min-height: 400px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color:whitesmoke;
+    color: #666;
+}
+
+.section-dark{
+    background-color: black;
+    color: white;
+}
+
+.ptext{
+    color: white;
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.border{
+    background-color: black;
+    color: white;
+    padding: 20px; 
+}
+
+.ptext .border.trans{
+    background-color: transparent   ;
+}
